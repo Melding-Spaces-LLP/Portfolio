@@ -32,4 +32,4 @@ For project inquiries or collaborations:
 
 Melding Spaces LLP  
 Bengaluru, India  
-Email: (add email here)
+Email: info.meldingspaces@gmail.com
