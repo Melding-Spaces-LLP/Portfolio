@@ -10,11 +10,11 @@
 body{
 margin:0;
 font-family:Arial, sans-serif;
+text-align:center;
 }
 
 .section{
-text-align:center;
-padding:25px;
+padding:30px 20px;
 }
 
 button{
@@ -27,23 +27,12 @@ border-radius:6px;
 cursor:pointer;
 }
 
-.pdf{
+#portfolio{
+display:none;
 width:100%;
 height:100vh;
 border:none;
 margin-top:20px;
-}
-
-.form{
-width:100%;
-max-width:900px;
-margin:auto;
-}
-
-.form iframe{
-width:100%;
-height:3200px;
-border:none;
 }
 
 </style>
@@ -60,7 +49,7 @@ border:none;
 <h3>Interested in working with us?</h3>
 
 <p>
-If you would like to discuss a project or collaboration, please fill out our client interest form.
+Please fill out our client inquiry form.
 </p>
 
 <a href="https://forms.gle/N7pjMtci2BtKphtL8" target="_blank">
@@ -74,8 +63,6 @@ If you would like to discuss a project or collaboration, please fill out our cli
 
 <h3>View Our Portfolio</h3>
 
-<p>Tap below to open our portfolio.</p>
-
 <button onclick="document.getElementById('portfolio').style.display='block'">
 Open Portfolio
 </button>
@@ -83,9 +70,7 @@ Open Portfolio
 </div>
 
 
-<!-- Portfolio viewer hidden initially -->
-
-<iframe id="portfolio" class="pdf" src="Portfolio.pdf" style="display:none;"></iframe>
+<iframe id="portfolio" src="Portfolio.pdf"></iframe>
 
 </body>
 
