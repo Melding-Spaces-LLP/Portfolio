@@ -6,28 +6,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-
 body{
 margin:0;
 font-family:Arial, sans-serif;
 }
 
-.header{
-text-align:center;
-padding:20px;
-}
-
 .pdf{
 width:100%;
-height:1200px;
+height:100vh;
 border:none;
+}
+
+.section{
+text-align:center;
+padding:20px;
 }
 
 .form{
 width:100%;
 max-width:900px;
 margin:auto;
-padding:20px;
 }
 
 .form iframe{
@@ -35,53 +33,39 @@ width:100%;
 height:3200px;
 border:none;
 }
-
-button{
-padding:15px 25px;
-font-size:16px;
-background:#000;
-color:white;
-border:none;
-border-radius:6px;
-cursor:pointer;
-}
-
 </style>
 
 </head>
 
 <body>
 
-<div class="header">
-<h1>Melding Spaces LLP</h1>
-<p>Architecture • Interiors • Urban Design</p>
-</div>
-
 <!-- Portfolio -->
-
 <iframe class="pdf" src="Portfolio.pdf"></iframe>
 
+<div class="section">
 
-<!-- Inquiry Section -->
+<h2>Interested in working with us?</h2>
 
-<div class="form">
-
-<h2 style="text-align:center;">Interested in working with us?</h2>
-
-<p style="text-align:center;">
+<p>
 If you would like to discuss a project or collaboration, please fill out our client interest form.
 </p>
 
-<div style="text-align:center;margin-top:20px;margin-bottom:40px;">
+<div style="margin-top:20px;margin-bottom:40px;">
 <a href="https://forms.gle/N7pjMtci2BtKphtL8" target="_blank">
-<button>Client Inquiry Form</button>
+<button style="padding:15px 25px;font-size:16px;background:#000;color:white;border:none;border-radius:6px;">
+Client Inquiry Form
+</button>
 </a>
 </div>
 
+</div>
+
+<!-- Embedded Form -->
+
+<div class="form">
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBz-J6dQ2IhlO05UA58WdWdgHdeP2-H2Emo-gnozQik5-9_g/viewform?embedded=true">
 Loading…
 </iframe>
-
 </div>
 
 </body>
